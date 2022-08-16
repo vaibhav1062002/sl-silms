@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+.container-fluid{
+  padding:7% 10%;
+}
+#galary ,#testimonial{
+  background-image: linear-gradient(to right,#6fe5ed,#abe9ed,#6fe5ed);
+}
+
+/* header sectin */
+
+#header{
+  background-image: linear-gradient(to right,#0fedfc,#b6f8fc,#0fedfc);
+}
+
+#header.container-fluid{
+  padding:3% 10% 5%;
+}
+
+/* top-buttom manipulate */
+.button-manipulate{
+  width: 90%;
+}
+
+.head-image{
+  padding: 5% ;
+border-start-start-radius:100%;
+border-start-end-radius:100%;
+  width: 500px;
+text-align: center;
+position:relative;
+}
+.collapse{
+position: absolute;
+right: 50px;
+
+   font-size:1.5rem;
+   text-shadow: 0.1px 0.1px black;
+
+}
+/* heading */
+
+.big-heading{
+color: #fff;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight:bold;
+    text-shadow: 2px 2px black;
+font-family: 'Sacramento', cursive;
+}
+
+/* features section */
+
+.para{
+  color: #8a8986;
+}
+.icon{
+  color:#a6e8ed;
+  font-size: 1.5rem;
+  padding:20px;
+
+}
+.icon:hover{
+  color:#34edfa;
+}
+
+/* galary-section */
+
+
+.img-galary{
+  width: 300px;
+  padding-top: 13%;
+}
+
+
+
+/*address ection */
+#address-time{
+  padding:100px;
+}
+.address-card{
+  padding: 3% 3%;
+}
+
+/* testimonial sectionn */
+.testo-immage{
+  width: 120px;
+  border-radius: 100%;
+  padding:10px 0 20px 0 ;
+}
+
+/* footer section */
+h2{
+  font-family:"Montserrat-bold";
+}
+.connect-me{
+  padding: 3%;
+}

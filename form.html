@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <link rel="stylesheet" href="css/style.css">
+
+      <link rel="icon" type="IMAGE" href="images\favicon .ico">
+    <!-- bootstrap css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- java bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
+
+    <!--  font awesom icon -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    </head>
+
+    <title>form-booking</title>
+
+
+    <!-- internal css -->
+
+    <style >
+
+    body{
+        background-color:#aef2ef;
+          margin: 0;
+       }
+
+/* <!-- top-section --> */
+
+ .tob-back{
+   background-image: linear-gradient(to right,#13d1eb,#8fe7f2);
+   border-bottom: 4px solid #c8e4e8;
+     padding: 10px ;
+ }
+
+h1{
+  color: #f2c230;
+      font-size: 3.5rem;
+      line-height: 1.5;
+      font-weight:bold;
+      text-shadow: 2px 2px black;
+  font-family: 'Sacramento', cursive;
+margin-top: 60px;
+}
+big,small{
+  margin-bottom:1rem;
+  color:#474643;
+}
+p{
+  margin-bottom: 0;
+  color:#474643;
+}
+
+/* middle-form */
+.mid-body{
+  background-color: #8fe7f2;
+  padding: 4% 10%;
+}
+
+input[type=text],[type=email],[type=password],select{
+  width: 70%;
+  margin-left: 10px;
+}
+input[type=date]{
+  width: 65%;
+  margin-left: 10px;
+}
+input[type=submit]{
+  width:40%;
+  color: #fff;
+  background-color:#13d1eb;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+
+}
+input[type=submit]:hover{
+  background-color:#07b5af;
+}
+
+</style>
+<!-- html section -->
+
+
+  </head>
+<body>
+  <div class="container-fluid top-section">
+
+  <!-- top section -->
+  <section id="Booking">
+<div class="container">
+ <div class="row tob-back">
+    <div class="col-lg-4 col-md-6 col-sm-6 w-0px ">
+      <img width="400px" src="images\logo.png" alt="">
+    </div>
+     <div class="col-lg-8 col-md-6 col-sm-6">
+     <h1>book your wedding date</h1>
+    </div>
+ </div>
+</div>
+
+
+ <!-- form-section -->
+
+<div class="container  mid-body">
+<form  action="mailto:vaibhavlande11112@gmail.com" method="post" enctype="text/plain">
+
+<label for="">fill your name</label>
+<input type="text" name="name"  placeholder="enter your name">
+
+<br><br>
+
+<label for="">select your country </label>
+<select  name="country">
+      <option value="australia">Australia</option>
+      <option value="australia">india</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <br> <br>
+
+    <label for="state"> select your state</label>
+
+     <select class="state" >
+       <option value="maharashtra">maharashtra</option>
+       <option value="madya pradesh">madya pradesh</option>
+       <option value="hawaii">hawaii</option>
+       <option value="iowa">iowa</option>
+       <option value="new york">new york</option>
+       <option value="australia">Australia</option>
+       <option value="Alberta">Alberta</option>
+       <option value="Manitoba">Manitoba</option>
+       <option value="Nova Scotia">Nova Scotia</option>
+     </select>
+
+     <br> <br>
+
+<label for="city"> select your city</label>
+     <select  name="city">
+       <option value="indore">indore</option>
+       <option value="amravati">amravati</option>
+       <option value="pune">pune</option>
+       <option value="mumbai">mumbai</option>
+       <option value="hedrabad">hedrabad</option>
+       <option value="ahemdabad">ahemdabad</option>
+       <option value="chandrapur">chandrapur</option>
+
+
+     </select>
+     <br><br>
+
+<label for="date"> please choose a data</label>
+    <input type="date" name="" value="">
+
+    <br> <br>
+    <label for="email"> enter Email</label>
+    <input type="email" name="email" placeholder="vaibhavlande1111@gmail.com" >
+
+    <br><br>
+    <label for="password"> enter password</label>
+    <input type="password" name="password">
+    <br><br>
+    <input type="submit" name="submit" >
+</form>
+</div>
+
+  </div>
+</section>
+</body>
+</html>
